@@ -1,0 +1,122 @@
+.appointment-container {
+    background-color: #e6e6e6;
+    padding: 3rem;
+}
+
+.user-appointment-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.user-login-form h2 {
+    color: white;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login-img {
+    width: 80px
+}
+
+.btn-reschedule,.btn-confirm{
+    margin: 1rem auto 0;
+    width: 100%;
+}
+
+.btn-reschedule button {
+    background-color: rgb(60, 149, 250);
+    color: #ffffff;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+}
+
+.appointment-item-date {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.appointment-item-id {
+    padding: 1.2rem;
+}
+
+.btn-reschedule button, .btn-confirm button {
+    width: 85%;
+    margin: 1rem;
+    height: 2.3rem;
+}
+
+.btn-confirm button {
+    background-color: rgb(236, 93, 93);
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+}
+
+.user-appointment-single-card {
+    background-color: black;
+    width: 30%;
+    margin: auto;
+    border-radius: 0.5rem;
+    height: 23rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+.user-booking-none-h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5rem;
+}
+
+.no-appointment {
+    height: 110vh;
+}
+
+.popup-container {
+    padding: 1rem;
+}
+
+.popup-content {
+    width: 35%;
+}
+
+.popup-contents {
+    font-size: 1.2rem;
+}
+
+.popup-btn-container {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.popup-btn-container button {
+    width: 40%;
+    margin: 0.5rem;
+    height: 2rem;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.btn-yes {
+    background-color: green;
+}
+
+.btn-no {
+    background-color: red;
+}
+
+.appointment-empty {
+    height: 100vh;
+}

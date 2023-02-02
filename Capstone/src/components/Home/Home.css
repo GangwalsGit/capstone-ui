@@ -1,0 +1,15 @@
+.home-container {
+    background-color: #e6e6e6;
+    height: 110vh;
+}
+
+.home-container h1 {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

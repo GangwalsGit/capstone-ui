@@ -1,0 +1,87 @@
+.user-signup-container {
+    background-color: #e6e6e6;
+    /* height: 110vh; */
+    padding: 3rem;
+}
+
+.user-signup-form {
+    background-color: black;
+    width: 60%;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+.user-signup-form h2 {
+    color: white;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-signup-img {
+    width: 80px
+}
+
+.user-signup-container form { 
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 25rem;
+}
+
+.user-signup-container form div.user-element {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 0%;
+}
+
+.user-signup-container form div input.user-element-input {
+    width: 80%;
+    margin: 0.5rem 1rem 0 2rem;
+}
+
+.user-signup-container form div label.user-element-label {
+    text-align: left;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.user-element-radio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.user-element-btn {
+    margin: 1rem auto 0;
+}
+
+.user-element-btn button {
+    width: 17rem;
+    height: 2.5rem;
+    background-color:  #237a23;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+.user-success-container {
+    height: 90vh;
+}
+
+.user-login-btn {
+    background-color: rgb(60, 149, 250);
+    width: 20%;
+    border: none;
+    border-radius: 0.2rem;
+    height: 2rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.user-signup-form h2 span {
+    margin-left: 2rem;
+}

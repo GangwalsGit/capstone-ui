@@ -1,0 +1,62 @@
+.user-home-container {
+    background-color: #e6e6e6;
+    height: 110vh;
+    padding: 3rem;
+}
+
+.user-home-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.user-home-card .user-home-item {
+    text-align: left;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.user-home-font-small {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.user-home-card-details {
+    width: 50%;
+}
+
+.user-home-font-small-id {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.btn-booking {
+    height: 2.5rem;
+    background-color: rgb(60, 149, 250);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border:none;
+    float: left;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.user-home-card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.user-home-single-card {
+    background-color: white;
+    border-radius: 0.3rem;
+    color: black;
+    width: 40%;
+    margin: auto;
+    height: 14rem;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

@@ -1,0 +1,35 @@
+.coach-home-container {
+    background-color: #e6e6e6;
+    height: 90vh;
+    padding: 2rem;
+    display: flex;
+}
+
+.appointment-card {
+    background-color: black;
+    border-radius: 0.3rem;
+    color: white;
+    width: 40%;
+    margin: auto;
+    height: 12rem;
+    margin-top: 1rem;
+}
+
+.appointment-card .card-item {
+    padding: 1rem;
+}
+
+.card-font-small {
+    font-size: 0.9rem;
+}
+
+.coach-home-card-container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.no-schedules {
+    justify-content: center;
+}

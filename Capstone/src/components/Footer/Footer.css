@@ -1,0 +1,11 @@
+.footer-container {
+    background-color: black;
+    color: white;
+    height: 2.5rem
+}
+
+.footer-container span {
+    margin-top: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+}

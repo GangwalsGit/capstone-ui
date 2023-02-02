@@ -1,0 +1,51 @@
+.user-profile-container {
+    background-color: #e6e6e6;
+    height: 90vh;
+    padding: 3rem;
+}
+
+.user-profile-card {
+    background-color: black;
+    border-radius: 0.3rem;
+    color: white;
+    width: 40%;
+    margin: auto;
+    height: 18rem;
+}
+
+.user-profile-card .user-profilecard-item {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.user-profilecard-font-small {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.user-profile-card .user-card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-back {
+    float: right;
+    height: 2.5rem;
+    background-color: rgb(60, 149, 250);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    margin: 2rem 1rem 1rem 0;
+    width: 40%;
+}
+
+.user-card-item-details {
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.user-card-img {
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,25 @@
+.coach-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 25%;
+    border-radius: 0.5rem;
+}
+
+.coach-card img {
+    width: 120px;
+    height: 120px;
+    padding: 3rem 3rem 1.5rem;
+}
+
+.coach-card button {
+    background-color: rgb(60, 149, 250);
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 600;
+}

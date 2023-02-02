@@ -1,0 +1,70 @@
+.user-login-container {
+    background-color: #e6e6e6;
+    /* height: 110vh; */
+    padding: 3rem;
+}
+
+.user-login-form {
+    background-color: black;
+    width: 40%;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+.user-login-form h2 {
+    color: white;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-login-img {
+    width: 80px
+}
+
+.user-login-container form { 
+    color: white;
+    height: 20rem;
+}
+
+.user-login-container form div.element {
+    width: 100%;
+}
+
+.user-login-container form div input.element-input {
+    width: 80%;
+    margin: 1rem;
+    height: 2rem;
+}
+
+.element-btn-login {
+    margin: 1rem auto 0;
+    width: 100%;
+}
+
+.element-btn-login button {
+    width: 83%;
+    height: 2.5rem;
+    background-color: rgb(60, 149, 250);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+
+.elemnent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-msg {
+    text-align: left;
+    margin-left: 1.3rem;
+    color: red;
+    margin-top: 1rem;
+}
+
+.user-login-form h2 span {
+    margin-left: 2rem;
+}
